@@ -7,7 +7,7 @@ import lombok.Data;
 import org.springframework.http.HttpStatus;
 
 @Data
-class ApiError {
+public class ApiError {
 
    private HttpStatus status;
    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy hh:mm:ss")
